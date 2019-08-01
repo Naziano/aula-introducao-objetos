@@ -14,7 +14,9 @@ public class TesteLampada {
 
         lampada.acende();
 
-        System.out.println(lampada);
+        //lampada.FREQUENCIA = 100;
+
+        System.out.println(lampada.FREQUENCIA);
 
     }
 }

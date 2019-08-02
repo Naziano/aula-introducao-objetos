@@ -1,11 +1,16 @@
 package br.senac.rn;
 
-public class Conta {
+// O (publico) deixa para que todos tenham acesso.
+// O (privado) ele priva de todas as classes, só pode mexer nela.
+// O (protected) ele dar o acesso as classes filhos, ou seja, as sub-classes tem total acesso.
+// O (abstract) ele vai ser só um modelo para as outras contas criadas, ela só é usada  para herança.
 
-    private String agencia;
-    private String numero;
-    private Double saldo = 0.0;
-    private String titular;
+public abstract class Conta {
+
+    protected String agencia;
+    protected String numero;
+    protected Double saldo = 0.0;
+    protected String titular;
 
     public String getAgencia() {
         return agencia;
@@ -72,10 +77,9 @@ public class Conta {
     @Override
     public String toString() {
         return "Conta{" +
-                "agencia='" + agencia + '\'' +
-                ", numero='" + numero + '\'' +
-                ", saldo=" + saldo +
+                "saldo=" + saldo +
                 ", titular='" + titular + '\'' +
                 '}';
     }
+
 }

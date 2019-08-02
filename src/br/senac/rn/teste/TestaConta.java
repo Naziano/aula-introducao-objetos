@@ -1,12 +1,13 @@
 package br.senac.rn.teste;
 
 import br.senac.rn.Conta;
+import br.senac.rn.ContaCorrente;
 
 public class TestaConta {
 
     public static void main(String[] args) {
 
-        Conta contaFelipe = new Conta();
+        Conta contaFelipe = new ContaCorrente();
 
         contaFelipe.setAgencia("0001-0");
         contaFelipe.setNumero("1239-4");
@@ -22,7 +23,7 @@ public class TestaConta {
         System.out.println(contaFelipe);
 
 
-        Conta contaJota = new Conta();
+        Conta contaJota = new ContaCorrente();
 
         contaJota.setAgencia("0003-2");
         contaJota.setNumero("5214-5");

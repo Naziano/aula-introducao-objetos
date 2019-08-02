@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09908380-d534-4ccf-8ee8-bec66d07207e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Lampada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Lampada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteLampada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteLampada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteLampada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteLampada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/Conta.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +39,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestaConta">
+  <component name="RunManager" selected="Application.TesteContaPoupanca">
     <configuration name="TestaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.senac.rn.teste.TestaConta" />
+      <module name="introducao-orientacao-objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.senac.rn.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.senac.rn.teste.TesteContaCorrente" />
+      <module name="introducao-orientacao-objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.senac.rn.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaPoupanca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.senac.rn.teste.TesteContaPoupanca" />
       <module name="introducao-orientacao-objetos" />
       <extension name="coverage">
         <pattern>
@@ -69,6 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteContaPoupanca" />
+        <item itemvalue="Application.TesteContaCorrente" />
         <item itemvalue="Application.TestaConta" />
         <item itemvalue="Application.TesteLampada" />
       </list>

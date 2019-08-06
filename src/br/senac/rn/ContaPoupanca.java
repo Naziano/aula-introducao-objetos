@@ -18,8 +18,17 @@ public class ContaPoupanca extends Conta {
 
 
     @Override
-    public String toString() {
-        return "ContaPoupanca{" + super.toString() + "}";
+    public Boolean saca(Double valor) {
+       if (valor <= saldo) {
+           saldo -= valor;
+           return true;
+       }
+       System.out.println("SALDO INSUFICIENTE");
+       return false;
     }
 
+    @Override
+    public String toString() {
+      return "ContaPoupanca{" + super.toString() + "}";
+    }
 }

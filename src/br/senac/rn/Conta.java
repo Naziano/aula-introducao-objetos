@@ -7,10 +7,20 @@ package br.senac.rn;
 
 public abstract class Conta {
 
+    //abstrato metodo sem abstração.
+    //static metodo para impor que as classes filhas tenha esse metodo. chamado de Interfaçe, parecido com o abstrato.
+    private static Integer id =0;
+
     protected String agencia;
     protected String numero;
     protected Double saldo = 0.0;
-    protected String titular;
+    protected Pessoa titular;
+
+    public Conta() {
+        id = id + 1;
+        numero = id.toString();
+
+    }
 
     public String getAgencia() {
         return agencia;
@@ -24,7 +34,7 @@ public abstract class Conta {
         return saldo;
     }
 
-    public String getTitular() {
+    public Pessoa getTitular() {
         return titular;
     }
 
@@ -32,11 +42,11 @@ public abstract class Conta {
         this.agencia = agencia;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
+    //public void setNumero(String numero) {
+        //this.numero = numero;
+    //}
 
-    public void setTitular(String titular) {
+    public void setTitular(Pessoa titular) {
         this.titular = titular;
     }
 
@@ -78,7 +88,8 @@ public abstract class Conta {
 
     @Override
     public String toString() {
-        return "saldo=" + saldo + ", titular='" + titular + "'";
+        return "numero='" + numero + '\'' +
+                ", saldo=" + saldo +
+                ", titular=" + titular;
     }
-
 }

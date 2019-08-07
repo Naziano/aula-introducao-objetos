@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09908380-d534-4ccf-8ee8-bec66d07207e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/Sexo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrama de Classe - BancoSenac.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama de Classe - BancoSenac.asta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/ContaCorrente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/ContaPoupanca.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TestaConta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteContaCorrente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-orientacao-objetos/br/senac/rn/teste/TesteContaPoupanca.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/teste/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/teste/TestaConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/teste/TesteContaPoupanca.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -34,6 +36,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.senac.rn" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteContaPoupanca">
+  <component name="RunManager" selected="Application.TesteContaCorrente">
     <configuration name="TestaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.senac.rn.teste.TestaConta" />
       <module name="introducao-orientacao-objetos" />
@@ -102,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteContaPoupanca" />
         <item itemvalue="Application.TesteContaCorrente" />
+        <item itemvalue="Application.TesteContaPoupanca" />
         <item itemvalue="Application.TestaConta" />
         <item itemvalue="Application.TesteLampada" />
       </list>

@@ -10,8 +10,8 @@ public class TestaConta {
         Conta contaFelipe = new ContaCorrente();
 
         contaFelipe.setAgencia("0001-0");
-        contaFelipe.setNumero("1239-4");
-        contaFelipe.setTitular("Felipe Vasco");
+        //contaFelipe.setNumero("1239-4");
+        //contaFelipe.setTitular("Felipe Vasco");
 
         contaFelipe.deposita(80.0);
 
@@ -26,8 +26,8 @@ public class TestaConta {
         Conta contaJota = new ContaCorrente();
 
         contaJota.setAgencia("0003-2");
-        contaJota.setNumero("5214-5");
-        contaJota.setTitular("Jota Lopes");
+        //contaJota.setNumero("5214-5");
+        //contaJota.setTitular("Jota Lopes");
 
         contaJota.deposita(200.0);
 
